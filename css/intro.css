@@ -1,0 +1,43 @@
+body {
+    background-image: url(../images/aso6syjzgps-hannah-wei.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.intro {
+    position: absolute;
+    width: 180px;
+    height: 190px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.intro_img {
+    width: 161px;
+    height: 119px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+
+.intro a {
+    font-family: "GothaProBol", Arial, Helvetica, sans-serif;
+    display: block;
+    width: 180px;
+    height: 43px;
+    line-height: 39px;
+    font-size: 1em;
+    color:rgb(236, 30, 121);
+    text-decoration: none;
+    text-align: center;
+    border: 3px solid rgb(236, 30, 121);
+    transition: all .5s ease-out;
+}
+
+.intro a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(236, 30, 121);
+}
