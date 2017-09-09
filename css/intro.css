@@ -1,7 +1,9 @@
 body {
     background-image: url(../images/aso6syjzgps-hannah-wei.png);
-    background-size: 100%;
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
 }
 
 
