@@ -61,3 +61,32 @@ table {
     font-family: "GothaProLigIta";
     src: url(../fonts/GothaProLigIta.otf);
 }
+
+.container {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.header {
+    height: 75px;
+    background-color: rgb(43, 43, 64);
+    width: 100%;
+}
+
+
+.header_logo {
+    display: inline-block;
+}
+
+.logo {
+    display: block;
+    width: 99px;
+    height: 51px;
+    margin: 13px 20px;
+}
+
+.nav {
+	display: block;
+	float: left;
+	width: 200px;
+}
