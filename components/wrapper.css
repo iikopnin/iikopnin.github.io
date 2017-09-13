@@ -1,0 +1,13 @@
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+
+/* в обертке я добавил этот блок, чтобы ее содержимое не "проползало"
+под подвал */
+
+.empty {
+    height: 77px;
+}

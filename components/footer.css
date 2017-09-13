@@ -1,0 +1,32 @@
+/* стиль для подвала */
+
+.footer {
+    height: 77px;
+    margin-top: -77px;
+    position: relative;
+    background-color: #27273e;
+}
+
+.footer__copyright {
+    float: left;
+    width: 290px;
+}
+
+.footer__logo {
+    float: left;
+    max-width: 100px;
+    max-height: 52px;
+    margin-top: 14px;
+    margin-left: 210px;
+}
+
+.footer__socialNets {
+    float: right;
+}
+
+/* в подвале я добавил этот блок, так как футер может схлопнуться из-за того,
+что все блоки, входящие в него, отформатированы свойством float */
+
+.footer__clear {
+    clear: both;
+}

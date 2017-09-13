@@ -1,0 +1,25 @@
+/* стиль для расположения ценрального блока с логотипом и кнопкой по центру экрана
+приветствия и центрирования логотипа и кнопки в этом блоке */
+
+.intro {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-height: 240px;
+    max-width: 180px;
+    margin: auto;
+}
+
+.intro__logo {
+    margin: 0 auto;
+    max-height: 120px;
+    max-width: 160px;
+}
+
+.intro__button {
+    margin-top: 32px;
+}
+
+

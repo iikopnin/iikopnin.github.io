@@ -1,0 +1,16 @@
+/* стиль для фона экрана приветствия */
+
+@import url('/components/reset.css');
+@import url('/components/fonts.css');
+@import url('/components/intro.css');
+@import url('/components/mainButton.css');
+
+
+body {
+    height: 100vh;
+    background-image: url(/images/aso6syjzgps-hannah-wei.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+

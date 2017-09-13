@@ -1,0 +1,38 @@
+/* стиль для главной кнопки на экране приветствия*/
+
+
+.mainButton {
+    width: 180px;
+    height: 42px; 
+}
+
+.mainButton__link {
+    display: block;
+    width: 180px;
+    height: 42px;
+    border: 3px solid #ec1e79;
+    transition: all 0.3s;
+}
+
+.mainButton__link:hover {
+    background-color: #ec1e79;
+}
+
+.mainButton__text {
+    display: block;
+    font-family: "GothaProBol", Arial, Helvetica, sans-serif;
+    font-size: .75em;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #ec1e79;
+    text-align: center;
+    line-height: 37px;
+    transition: all 0.3s;
+}
+
+
+.mainButton__text:hover {
+    color: #ffffff;
+}
+
+

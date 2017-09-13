@@ -1,0 +1,34 @@
+/* стиль для авторских прав в подвале */
+
+.copyright {
+    padding-top:12px;
+    padding-left: 20px;
+    width: 290px;
+    height: 77px;
+    text-align: left;
+}
+
+.copyright__text {
+    font-family: "GothaProLig", Arial, Helvetica, sans-serif; 
+    color: #ffffff;
+    font-size: 0.9em;
+    line-height: 1.3em;
+}
+
+.copyright__link {
+    font-family: "GothaProBol", Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.copyright__author {
+    display: inline-block;
+    font-family: "GothaProBol", Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 0.9em;
+}
+
+
+
+
+

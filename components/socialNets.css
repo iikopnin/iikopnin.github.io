@@ -1,0 +1,57 @@
+/* стиль для меню с иконками соц. сетей */
+
+.socialNets {
+    width: 220px;
+    height: 77px;
+    padding-left: 20px;
+}
+
+.socialNets__title {
+    font-family: "GothaProBol", Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    padding-top: 18px;
+}
+
+.socialNets__items {
+    padding-top: 9px;
+}
+
+.socialNets__item {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('/images/socialNets_icons/Ellipse 1.svg');
+    background-repeat: no-repeat;
+    margin-right: 8px;
+}
+
+.socialNets__item:hover {
+    background-image: url('/images/socialNets_icons/Ellipse 2.svg');
+}
+
+.vk {
+    padding-top: 2px;
+    padding-left: 2px;
+}
+
+.fb {
+    padding-top: 2px;
+    padding-left: 7px;
+}
+
+.google {
+    padding-top: 2px;
+    padding-left: 2px;
+}
+
+.twitter {
+    padding-top: 2px;
+    padding-left: 4px;
+}
+
+.email {
+    padding-top: 2px;
+    padding-left: 4px;
+}
