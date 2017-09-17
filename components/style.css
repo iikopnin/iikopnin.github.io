@@ -5,7 +5,6 @@
 @import url('/components/fonts.css');
 @import url('/components/wrapper.css');
 @import url('/components/container.css');
-<<<<<<< HEAD
 @import url('/components/header.css');
 @import url('/components/footer.css');
 @import url('/components/logo.css');
@@ -29,23 +28,7 @@
     margin-bottom: 53px;
 }
 
-.section {
-    width: 900px;
-    float: right;
-}
-=======
-@import url('/components/contacts.css');
-@import url('/components/dropdown.css');
-@import url('/components/header.css');
-@import url('/components/nav.css');
-@import url('/components/wrapper.css');
-@import url('/components/footer.css');
-@import url('/components/copyright.css');
-@import url('/components/socials.css');
-@import url('/components/logo.css');
-@import url('/components/breadcrumbs.css');
-@import url('/components/tariffs.css');
->>>>>>> 930c0c7cadd09f7fd1f3825b9232fe927ba3d742
+
 
 .title {
     margin-top: 30px;
@@ -55,15 +38,7 @@
 }
 
 
-.clear:after {
-    content: "";
-    display: block;
-    clear: both;
-}
 
-.content {
-    margin-bottom: 53px;
-}
 
 .section {
     width: 900px;
@@ -81,14 +56,4 @@
     float: right;
     width: 200px;
     padding-top: 45px;
-<<<<<<< HEAD
 }
-=======
-}
-
-
-
-
-
-
->>>>>>> 930c0c7cadd09f7fd1f3825b9232fe927ba3d742
