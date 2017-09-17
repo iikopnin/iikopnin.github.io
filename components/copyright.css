@@ -1,10 +1,6 @@
 /* стиль для авторских прав в подвале */
 
 .copyright {
-    padding-top:12px;
-    padding-left: 20px;
-    width: 290px;
-    height: 77px;
     text-align: left;
 }
 
@@ -22,10 +18,8 @@
 }
 
 .copyright__author {
-    display: inline-block;
     font-family: "GothaProBol", Arial, Helvetica, sans-serif;
-    color: #ffffff;
-    font-size: 0.9em;
+    font-weight: bold;
 }
 
 

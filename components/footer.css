@@ -7,26 +7,23 @@
     background-color: #27273e;
 }
 
-.footer__copyright {
+.footer__col {
     float: left;
-    width: 290px;
+    width: 33%;
+}
+
+.footer__copyrigth {
+    margin-top:12px;
+    margin-left: 20px;
 }
 
 .footer__logo {
-    float: left;
-    max-width: 100px;
-    max-height: 52px;
+    margin: 0 auto;
     margin-top: 14px;
-    margin-left: 210px;
 }
 
-.footer__socialNets {
+.footer__socials {
     float: right;
-}
-
-/* в подвале я добавил этот блок, так как футер может схлопнуться из-за того,
-что все блоки, входящие в него, отформатированы свойством float */
-
-.footer__clear {
-    clear: both;
+    margin-right: 8px;
+    margin-top: 20px;
 }

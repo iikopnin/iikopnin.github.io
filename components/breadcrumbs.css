@@ -1,0 +1,23 @@
+.breadcrumbs {
+  margin-top: 45px;
+}
+
+.breadcrumbs__item {
+  display: inline;
+}
+
+.breadcrumbs__link {
+  font-family: "GothaProLigIta", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #221f1f;
+}
+
+
+.breadcrumbs__link--active {
+  color: #ec1e79;
+  text-decoration: underline;
+}
+
+.breadcrumbs__link--hover:hover {
+  color: #ec1e79;
+}
