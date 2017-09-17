@@ -1,12 +1,12 @@
 /* стиль для главной кнопки на экране приветствия*/
 
 
-.mainButton {
+.main_button {
     width: 180px;
     height: 42px; 
 }
 
-.mainButton__link {
+.main_button__link {
     display: block;
     width: 180px;
     height: 42px;
@@ -14,11 +14,11 @@
     transition: all 0.3s;
 }
 
-.mainButton__link:hover {
+.main_button__link:hover {
     background-color: #ec1e79;
 }
 
-.mainButton__text {
+.main_button__text {
     display: block;
     font-family: "GothaProBol", Arial, Helvetica, sans-serif;
     font-size: .75em;
@@ -31,7 +31,7 @@
 }
 
 
-.mainButton__text:hover {
+.main_button__text:hover {
     color: #ffffff;
 }
 

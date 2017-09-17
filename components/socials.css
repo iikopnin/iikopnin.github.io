@@ -1,57 +1,50 @@
 /* стиль для меню с иконками соц. сетей */
 
-.socialNets {
-    width: 220px;
-    height: 77px;
-    padding-left: 20px;
-}
-
-.socialNets__title {
+.socials__title {
     font-family: "GothaProBol", Arial, Helvetica, sans-serif;
     color: #ffffff;
     font-size: 14px;
     letter-spacing: 0.04em;
-    padding-top: 18px;
 }
 
-.socialNets__items {
+.socials__items {
     padding-top: 9px;
 }
 
-.socialNets__item {
+.socials__item {
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url('/images/socialNets_icons/Ellipse 1.svg');
+    background-image: url('/images/socials_icons/Ellipse 1.svg');
     background-repeat: no-repeat;
     margin-right: 8px;
 }
 
-.socialNets__item:hover {
-    background-image: url('/images/socialNets_icons/Ellipse 2.svg');
+.socials__item:hover {
+    background-image: url('/images/socials_icons/Ellipse 2.svg');
 }
 
-.vk {
+.socials__item--vk {
     padding-top: 2px;
     padding-left: 2px;
 }
 
-.fb {
+.socials__item--fb {
     padding-top: 2px;
     padding-left: 7px;
 }
 
-.google {
+.socials__item--google {
     padding-top: 2px;
     padding-left: 2px;
 }
 
-.twitter {
+.socials__item--twitter {
     padding-top: 2px;
     padding-left: 4px;
 }
 
-.email {
+.socials__item--email {
     padding-top: 2px;
     padding-left: 4px;
 }

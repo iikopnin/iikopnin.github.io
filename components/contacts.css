@@ -1,12 +1,16 @@
-/* стиль для телефона в шапке */
+/* стиль для контактов в шапке */
+.contacts {
+    text-align: right;
+}
 
-.timetable__phone {
+
+.contacts__phone-number {
     color: #ffffff;
     font-family: "GothaProBol", Arial, Helvetica, sans-serif;
     font-size: 1.2em;
 }
 
-.timetable__time {
+.contacts__time {
     padding-top: 6px;
     padding-right: 3px;
 }
