@@ -1,22 +1,47 @@
 /* основной стиль, применяемый во всех экранах, 
 кроме экрана приветствия */
 
-@import url('/components//reset.css');
+@import url('/components/reset.css');
 @import url('/components/fonts.css');
-@import url('/components/container.css');
-@import url('/components/timetable.css');
-@import url('/components/dropdown.css');
-@import url('/components/header.css');
-@import url('/components/navigation.css');
 @import url('/components/wrapper.css');
+@import url('/components/container.css');
+@import url('/components/header.css');
 @import url('/components/footer.css');
-@import url('/components/copyright.css');
-@import url('/components/socialNets.css');
 @import url('/components/logo.css');
+@import url('/components/contacts.css');
+@import url('/components/dropdown.css');
+@import url('/components/nav.css');
+@import url('/components/copyright.css');
+@import url('/components/socials.css');
+@import url('/components/breadcrumbs.css');
+@import url('/components/tariffs.css');
 
+
+
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.content {
+    margin-bottom: 53px;
+}
+
+.section {
+    width: 900px;
+    float: right;
+}
+
+.title {
+    margin-top: 30px;
+    font-family: "GothaProBol", Arial, Helvetica, sans-serif;
+    font-size: 49px;
+    color: #221f1f;
+}
 
 .sidebar {
-    float: left;
+    float: right;
     width: 200px;
-    padding-top: 28px;
+    padding-top: 45px;
 }

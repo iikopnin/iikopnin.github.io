@@ -1,0 +1,57 @@
+.tariffs__item {
+  float: left;
+  width: 250px;
+  height: 425px;
+  text-align: center;
+  margin-right: 54px;
+  margin-top: 20px;
+}
+
+.tariffs__item--last {
+  margin-right: 40px;
+}
+
+.tariffs__title {
+  margin: 0 auto;
+  width: 250px;
+  height: 153px;
+  line-height: 153px;
+  overflow: hidden;
+  border-radius: 3px;
+  background-color: #27273e;
+  background-image: url('/images/tariffs/1qkyck-ul3g-james-pond.png');
+  background-repeat: no-repeat;
+}
+
+.tariffs__filter {
+  background-image: url("/images/tariffs/overlay.svg");
+  transition: all 1s;
+}
+
+.tariffs__link {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: "GothaProBol", Arial, Helvetica, sans-serif;
+  line-height: normal;
+  font-size: 24px;
+  color: #5dd1f8;
+}
+
+
+.tariffs__link-vip {
+  color: #ec1e79;
+}
+
+.tariffs__value {
+  font-family: "GothaProBol", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.tariffs__text {
+  font-size: 14px;
+  margin-top: 14px;
+  line-height: 22px;
+  font-family: "GothaProLig", Arial, Helvetica, sans-serif;
+  color: #221f1f;
+}

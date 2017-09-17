@@ -1,122 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="/components/style.css">
-    <link rel="stylesheet" href="/components/vorcadium.css">
-    <title>Vorcadium</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="/components/style.css">
+	<title>Vorcadium</title>
 </head>
+
 <body>
-    <div class="wrapper">
-        <header class="header">
-            <div class="container">
-                <div class="header__logo">
-                    <div class="logo">
-                        <img src="/images/logo-fig.png" alt="logo" class="logo__img">
-                    </div>
-                </div>
-                <div class="header__timetable">
-                    <div class="timetable">
-                        <div class="timetable__phone">8 (800) 00-392-10</div>
-                        <div class="timetable__time">
-                            <div class="dropdown">
-                                <span class="dropdown__title">График работы</span>
-                                <div class="dropdown__content">
-                                    <span class="dropdown__worktime">пн-вс:09:00-20:00</span>
-                                    <span class="dropdown__timeout">обед:14:00-14:30</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <div class="content">
-            <div class="container">
-                <aside class="sidebar">
-                    <nav class="navigation">
-                        <ul class="navigation__list">
-                            <li class="navigation__item">
-                                <a href="/vorcadium.html" class="navigation__link">
-                                    <span class="navigation__text navigation__text-main active">
-                                        Главная
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="navigation__item">
-                                <a href="/prices.html" class="navigation__link">
-                                    <span class="navigation__text navigation__text-wallet hover">
-                                        Тарифы
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="navigation__item">
-                                <a href="/comments.html" class="navigation__link">
-                                    <span class="navigation__text navigation__text-feed hover">
-                                        Отзывы
-                                    </span>
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </aside>
-            </div>
-        </div>
-        <div class="empty">
-        </div>
-    </div>
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__copyright">
-                <div class="copyright">
-                        <p class="copyright__text">
-                            Сделано с любовью и старанием 
-                            на курсе "HTML + CSS" в <a href="" class="copyright__link">LoftSchool</a>
-                            Автор работы: <span class="copyright__author">Прохладов Вадим</span>
-                        </p>
-                </div>             
-            </div>
-            <div class="footer__logo">
-                <div class="logo">
-                    <img src="/images/logo-fig.png" alt="logo" class="logo__img">
-                </div>
-            </div>
-            <div class="footer__socialNets">
-                <div class="socialNets">
-                    <div class="socialNets__title">Наши социальные сети</div>
-                    <div class="socialNets__items">
-                        <ul class="socialNets__list">
-                            <li class="socialNets__item vk">
-                                <a href="#" class="socialNets__link">
-                                    <img src="/images/socialNets_icons/vk.png" alt="" class="socialNets__img">
-                                </a>
-                            </li>
-                            <li class="socialNets__item fb">
-                                <a href="#" class="socialNets__link">
-                                    <img src="/images/socialNets_icons/fb.png" alt="" class="socialNets__img">
-                                </a>
-                            </li>
-                            <li class="socialNets__item google">
-                                <a href="#" class="socialNets__link">
-                                    <img src="/images/socialNets_icons/google.png" alt="" class="socialNets__img">
-                                </a>
-                            </li>
-                            <li class="socialNets__item twitter">
-                                <a href="#" class="socialNets__link">
-                                    <img src="/images/socialNets_icons/twitter.png" alt="" class="socialNets__img">
-                                </a>
-                            </li>
-                            <li class="socialNets__item email">
-                                <a href="#" class="socialNets__link">
-                                    <img src="/images/socialNets_icons/mail.png" alt="" class="socialNets__img">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="footer__clear"></div>
-        </div>
-    </footer>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container clear">
+				<div class="logo header__logo">
+					<a href="/vorcadium.html" class="logo-link">
+						<img src="/images/logo-fig.png" alt="logo" class="logo__img">
+					</a>
+				</div>
+				<div class="contacts header__contacts">
+					<div class="contacts__phone">
+						<a href="tel:+78000039210" class="contacts__phone-number">
+							8 (800) 00-392-10
+						</a>
+					</div>
+					<div class="contacts__time">
+						<div class="dropdown">
+							<span class="dropdown__title">График работы</span>
+							<div class="dropdown__content">
+								<span class="dropdown__worktime">пн-вс:09:00-20:00</span>
+								<span class="dropdown__timeout">обед:14:00-14:30</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="content">
+			<div class="container">
+				<div class="section">
+					<h1 class="title">
+						О компании
+					</h1>
+				</div>
+				<aside class="sidebar">
+						<nav class="nav">
+								<ul class="nav__list">
+									<li class="nav__item">
+										<a href="/vorcadium.html" class="nav__link nav__link--page_main nav__link--active">
+											Главная
+										</a>
+									</li>
+									<li class="nav__item">
+										<a href="/prices.html" class="nav__link nav__link--page_wallet nav__link--hover">
+											Тарифы
+										</a>
+									</li>
+									<li class="nav__item">
+										<a href="/comments.html" class="nav__link nav__link--page_feed nav__link--hover">
+											Отзывы
+										</a>
+									</li>
+								</ul>
+							</nav>
+				</aside>
+			</div>
+		</div>
+		<div class="empty">
+		</div>
+	</div>
+	<footer class="footer clear">
+		<div class="container">
+			<div class="footer__col">
+				<div class="copyright  footer__copyrigth">
+					<p class="copyright__text">
+						Сделано с любовью и старанием</br>
+						на курсе "HTML + CSS" в <a href="#" class="copyright__link">LoftSchool</a></br>
+						Автор работы:<span class="copyright__author"> Прохладов Вадим</span>
+					</p>
+				</div>
+			</div>
+			<div class="footer__col">
+				<div class="logo footer__logo">
+					<a href="/vorcadium.html" class="logo__link">
+						<img src="/images/logo-fig.png" alt="logo" class="logo__img">
+					</a>
+				</div>
+			</div>
+			<div class="footer__col">
+				<div class="socials footer__socials">
+					<div class="socials__title">Наши социальные сети</div>
+					<div class="socials__items">
+						<ul class="socials__list">
+							<li class="socials__item socials__item--vk">
+								<a href="#" class="socials__link">
+									<img src="/images/socials_icons/vk.png" alt="" class="socials__icon">
+								</a>
+							</li>
+							<li class="socials__item socials__item--fb">
+								<a href="#" class="socials__link">
+									<img src="/images/socials_icons/fb.png" alt="" class="socials__icon">
+								</a>
+							</li>
+							<li class="socials__item socials__item--google">
+								<a href="#" class="socials__link">
+									<img src="/images/socials_icons/google.png" alt="" class="socials__icon">
+								</a>
+							</li>
+							<li class="socials__item socials__item--twitter">
+								<a href="#" class="socials__link">
+									<img src="/images/socials_icons/twitter.png" alt="" class="socials__icon">
+								</a>
+							</li>
+							<li class="socials__item socials__item--email">
+								<a href="#" class="socials__link">
+									<img src="/images/socials_icons/mail.png" alt="" class="socials__icon">
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
 </body>
+
 </html>

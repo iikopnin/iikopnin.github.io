@@ -1,0 +1,16 @@
+/* стиль для контактов в шапке */
+.contacts {
+  text-align: right;
+}
+
+
+.contacts__phone-number {
+  color: #ffffff;
+  font-family: "GothaProBol", Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+}
+
+.contacts__time {
+  padding-top: 6px;
+  padding-right: 3px;
+}
