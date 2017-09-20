@@ -1,22 +1,20 @@
 /* стили для навигационной панели в левой части страницы*/
 
 .nav {
-  width: 200px;
+  width: 180px;
 }
 
 .nav__item {
   display: block;
-  height: 50px;
-  padding-left: 52px;
-  /* text-align: center; */
+  height: 48px;
+  padding-left: 38px;
 }
 
 .nav__link {
-  /* display: block; */
   position: relative;
   font-family: "GothaProBol", Arial, Helvetica, sans-serif;
   color: #ec1e79;
-  font-size: .8em;   
+  font-size: 12px;   
   text-transform: uppercase;
   transition: all .7s;
 }

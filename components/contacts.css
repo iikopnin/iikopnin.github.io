@@ -1,16 +1,21 @@
 /* стиль для контактов в шапке */
 .contacts {
+  width: 172px;
   text-align: right;
 }
 
+.contacts__phone {
+  display: inline-block;
+}
 
 .contacts__phone-number {
   color: #ffffff;
   font-family: "GothaProBol", Arial, Helvetica, sans-serif;
-  font-size: 1.2em;
+  font-size: 18px;
 }
 
 .contacts__time {
-  padding-top: 6px;
-  padding-right: 3px;
+  display: inline-block;
+  margin-top: 6px;
+  margin-right: 3px;
 }

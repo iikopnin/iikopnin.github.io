@@ -15,17 +15,15 @@
 .dropdown__content {
     display: none;
     position: absolute;
-    padding: 33px 27px;
+    padding-top: 33px;
+    padding-left: 23px;
+    text-align: left;
     left: -35px;
     background-image: url('/images/Rounded Rectangle 2.png');
     background-repeat: no-repeat;
     width: 180px;
     height: 98px;
     z-index: 1;
-}
-
-.dropdown:hover {
-    cursor: pointer;
 }
 
 .dropdown:hover .dropdown__title {
@@ -39,12 +37,12 @@
 .dropdown__worktime {
     color: #ec1e79;
     font-family: "GothaProBol", Arial, Helvetica, sans-serif;
-    font-size: 0.8em;
+    font-size: 14px;
 }
 
 .dropdown__timeout {
     color: #221f1f;
     font-family: "GothaProLig", Arial, Helvetica, sans-serif;
-    font-size: 0.9em;
-    line-height: 2.2em;
+    font-size: 14px;
+    line-height: 35px;
 }

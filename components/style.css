@@ -15,10 +15,15 @@
 @import url('/components/socials.css');
 @import url('/components/breadcrumbs.css');
 @import url('/components/tariffs.css');
+@import url('/components/company_title.css');
+@import url('/components/company_desc.css');
+@import url('/components/company_list.css');
+@import url('/components/discount.css');
+@import url('/components/reviews.css');
 
 
 
-.clear:after {
+.clearfix:after {
     content: "";
     display: block;
     clear: both;
@@ -41,19 +46,14 @@
 
 
 .section {
-    width: 900px;
+    width: 880px;
     float: right;
 }
 
-.title {
-    margin-top: 30px;
-    font-family: "GothaProBol", Arial, Helvetica, sans-serif;
-    font-size: 49px;
-    color: #221f1f;
-}
+
 
 .sidebar {
     float: right;
-    width: 200px;
+    width: 180px;
     padding-top: 45px;
 }

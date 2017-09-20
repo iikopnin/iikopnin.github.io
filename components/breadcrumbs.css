@@ -18,6 +18,11 @@
   text-decoration: underline;
 }
 
-.breadcrumbs__link--hover:hover {
-  color: #ec1e79;
+.breadcrumbs__item:after {
+  content: '/';
 }
+
+.breadcrumbs__item:last-child:after {
+  display: none;
+}
+

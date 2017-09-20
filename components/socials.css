@@ -8,13 +8,14 @@
 }
 
 .socials__items {
-    padding-top: 9px;
+    margin-top: 9px;
 }
 
 .socials__item {
     display: inline-block;
     width: 20px;
     height: 20px;
+    overflow: hidden;
     background-image: url('/images/socials_icons/Ellipse 1.svg');
     background-repeat: no-repeat;
     margin-right: 8px;
