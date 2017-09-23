@@ -1,0 +1,23 @@
+.company-desc {
+  width: 700px;
+  font-size: 18px;
+  line-height: 1.7em;
+}
+
+.company-desc h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 8px;
+  margin-bottom: 6px;
+}
+
+.company-desc li {
+  list-style: disc;
+  color: #ec1e79;
+  margin-left: 34px;
+  margin-bottom: 6px;
+}
+
+.company-desc li p {
+  color: #221f1f;
+}

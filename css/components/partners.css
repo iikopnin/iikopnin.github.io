@@ -1,0 +1,60 @@
+.company__partners {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.partners__list--top {
+  margin-top: 30px;
+}
+
+.partners__list--bottom {
+  margin-top: 54px;
+}
+
+.partners__item {
+  display: inline-block;
+  margin-right: 110px;
+}
+
+.partners__link {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 160px;
+  height: 63px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  filter: grayscale(100%);
+  transition: all .7s;
+}
+
+.partners__link:hover {
+  filter: none;
+}
+
+.partners__link--type-vinter {
+  background-image: url("/images/partners/logo-1.png");
+}
+
+.partners__link--type-drop {
+  background-image: url("/images/partners/logo-2.png");
+}
+
+.partners__link--type-library {
+  background-image: url("/images/partners/logo-3.png");
+}
+
+.partners__link--type-bakery {
+  background-image: url("/images/partners/logo-4.png");
+}
+
+.partners__link--type-sofa {
+  background-image: url("/images/partners/logo-5.png");
+}
+
+.partners__link--type-avantage {
+  background-image: url("/images/partners/logo-6.png");
+}
+
+
+

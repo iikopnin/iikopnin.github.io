@@ -1,0 +1,111 @@
+.form__container {
+  font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  background-color: #f5f5f5;
+  border-radius: 3px;
+  width: 700px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 42px;
+  padding-bottom: 40px;
+}
+
+.feed__form {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.form__title {
+  margin-bottom: 30px;
+}
+
+.form__row {
+  margin-top: 22px;
+}
+
+.form__elem {
+  display: inline-block;
+  width: 270px;
+}
+
+.form__elem--right {
+  float: right;
+}
+
+.form__elem-title {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+
+
+/* стили для полей ввода */
+
+.form__input {
+  width: 270px;
+  height: 45px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+  font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
+}
+
+.form__input:focus {
+  border: 1 solid #ec1e79;
+}
+
+.form__textarea {
+  display: block;
+  width: 560px;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
+  color: #221f1f;
+}
+
+.form__textarea:focus {
+  border: 1 solid #ec1e79;
+}
+
+
+
+/* стили для кнопок и радио */
+
+.form__buttons {
+  margin-top: 20px;
+}
+
+.form__radio {
+  float: left;
+}
+
+.form__radio-elem {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.form__submit {
+  float: right;
+}
+
+.form__button {
+  width: 140px;
+  height: 45px;
+  background-color: #27273e;
+  border-radius: 3px;
+  font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 45px;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  transition: all .6s;
+}
+
+.form__button:hover {
+  background-color: #ec1e79;
+  font-weight: bold;
+}
+

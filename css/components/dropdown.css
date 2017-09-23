@@ -1,0 +1,49 @@
+/*стили для дропдауна в шапке*/
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown__title {
+    font-family: inherit;
+    color: #c02169;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+.dropdown__content {
+    display: none;
+    position: absolute;
+    padding-top: 31px;
+    padding-left: 18px;
+    text-align: left;
+    left: -37px;
+    background-image: url("/images/Rounded Rectangle 2.png");
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 98px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown__title {
+    color: #7faad4;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.dropdown:hover .dropdown__content {
+    display: inline-block;
+}
+
+.dropdown__worktime {
+    color: #ec1e79;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.dropdown__timeout {
+    color: #221f1f;
+    font-size: 14px;
+}

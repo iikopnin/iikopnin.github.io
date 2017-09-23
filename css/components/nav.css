@@ -1,0 +1,75 @@
+/* стили для навигационной панели в левой части страницы*/
+
+.nav {
+  width: 180px;
+  font-family: inherit;
+}
+
+.nav__item {
+  display: block;
+  height: 48px;
+  padding-left: 40px;
+}
+
+.nav__link {
+  position: relative;
+  color: #ec1e79;
+  font-weight: bold;
+  font-size: 12px;   
+  text-transform: uppercase;
+  transition: all .7s;
+}
+
+.nav__link:before {
+  position: absolute;
+  top: -4px;
+  left: -37px;
+}
+
+.nav__link:after {
+  position: absolute;
+  top: -4px;
+  left: -37px;
+  opacity: 0;
+  transition: all .7s;
+}
+
+.nav__link--page_main:before {
+  content: url("/images/nav_icons/normal_icons/main_icon.png");
+}
+
+.nav__link--page_main:after {
+  content: url("/images/nav_icons/active_icons/main_icon.png");
+}
+
+.nav__link--page_wallet:before {
+  content: url("/images/nav_icons/normal_icons/wallet_icon.png");
+}
+
+.nav__link--page_wallet:after {
+  content: url("/images/nav_icons/active_icons/wallet_icon.png");
+}
+
+.nav__link--page_feed:before {
+  content: url("/images/nav_icons/normal_icons/feed_icon.png");
+}
+
+.nav__link--page_feed:after {
+  content: url("/images/nav_icons/active_icons/feed_icon.png");
+}
+
+.nav__link--hover:hover:after {
+  opacity: 1;
+}
+
+.nav__link--hover:hover {
+  color: #221f1f;
+}
+
+.nav__link--active:after {
+  opacity: 1;
+}
+
+.nav__link--active {
+  color: #221f1f;
+}

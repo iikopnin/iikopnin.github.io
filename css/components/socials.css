@@ -1,0 +1,60 @@
+/* стиль для меню с иконками соц. сетей */
+
+.socials__title-text {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+}
+
+.socials__items {
+    margin-top: 9px;
+}
+
+.socials__item {
+    display: inline-block;
+    margin-right: 7px;
+}
+
+.socials__link {
+    display: block;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: #d5d5d9;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.socials__item:hover .socials__link {
+    background-color: #ea227a;
+}
+
+.socials__link--type-vk {
+    background-image: url("/images/socials_icons/vk.png");
+    
+}
+
+.socials__link--type-fb {
+    background-image: url("/images/socials_icons/fb.png");
+}
+
+.socials__link--type-google {
+    background-image: url("/images/socials_icons/google.png");
+}
+
+.socials__link--type-twitter {
+    background-image: url("/images/socials_icons/twitter.png");
+}
+
+.socials__link--type-email {
+    background-image: url("/images/socials_icons/mail.png");
+}
+
+.footer__socials {
+    float: right;
+    margin-right: 8px;
+    margin-top: 14px;
+}
+

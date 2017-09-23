@@ -1,0 +1,50 @@
+.feed__pagination {
+  margin-top: 22px;
+  margin-left: 220px;
+}
+
+.pagination__pages {
+  display: inline-block;
+  font-size: 14px;
+  color: #656464;
+  margin-right: 10px;
+}
+
+.pagination__list {
+  display: inline-block;
+}
+
+
+
+.pagination__item {
+  font-size: 14px;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border-radius: 2px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.pagination__item--arrow {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.pagination__item--active {
+  background-color: #27273e;
+  color: #ec1e79;
+}
+
+
+.pagination__item:hover {
+  color: #ec1e79;
+}
+
+.pagination__item--inactive, .pagination__item--inactive:hover {
+  color: #bebdbd;t
+}
+
+.pagination__link {
+  line-height: 25px;
+}
