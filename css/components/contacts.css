@@ -1,0 +1,26 @@
+/* стиль для контактов в шапке */
+.contacts {
+  width: 172px;
+  text-align: right;
+}
+
+.contacts__phone {
+  display: inline-block;
+}
+
+.contacts__phone-number {
+  font-family: inherit;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.contacts__time {
+  display: inline-block;
+  margin-right: 3px;
+}
+
+.header__contacts {
+  float: right;
+  margin-top: 21px;
+}

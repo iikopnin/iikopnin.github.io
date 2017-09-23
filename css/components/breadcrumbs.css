@@ -1,0 +1,24 @@
+.breadcrumbs {
+  margin-top: 45px;
+  margin-bottom: 24px;
+}
+
+.breadcrumbs__item {
+  display: inline;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.breadcrumbs__link--active {
+  color: #ec1e79;
+  text-decoration: underline;
+}
+
+.breadcrumbs__item:after {
+  content: '/';
+}
+
+.breadcrumbs__item:last-child:after {
+  display: none;
+}
+

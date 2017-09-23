@@ -3,8 +3,11 @@
 
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="/components/style.css">
+	<meta name="viewport" content="width=1080">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Vorcadium</title>
+	<link rel="stylesheet" href="/css/layout/normalize.css">
+	<link rel="stylesheet" href="/css/main.css">
 </head>
 
 <body>
@@ -16,189 +19,195 @@
 						<img src="/images/logo-fig.png" alt="Лого коворкинга" class="logo__img">
 					</a>
 				</div>
-				<div class="contacts header__contacts">
+				<address class="contacts header__contacts">
 					<div class="contacts__phone">
-						<a href="tel:+78000039210" class="contacts__phone-number">
+						<button href="tel:+78000039210" class="contacts__phone-number">
 							8 (800) 00-392-10
-						</a>
+						</button>
 					</div>
 					<div class="contacts__time">
 						<div class="dropdown">
-							<span class="dropdown__title">График работы</span>
+							<button class="dropdown__title">График работы</button>
 							<div class="dropdown__content">
 								<span class="dropdown__worktime">пн-вс:09:00-20:00</span>
 								<span class="dropdown__timeout">обед:14:00-14:30</span>
 							</div>
 						</div>
 					</div>
-				</div>
+				</address>
 			</div>
 		</header>
 		<div class="content">
 			<div class="container clearfix">
-				<div class="section">
-					<ul class="breadcrumbs">
-						<li class="breadcrumbs__item">
-							<a href="/vorcadium.html" class="breadcrumbs__link breadcrumbs__link--active">Главная</a>
-						</li>
-						<li class="breadcrumbs__item breadcrumbs__item--hover">
-							<span href="" class="breadcrumbs__link">Тарифы</span>
-						</li>
-					</ul>
-					<h1 class="title">
-						Тарифы
-					</h1>
-					<ul class="tariffs clearfix">
-						<li class="tariffs__item">
-							<div class="tariffs__title">
-								<a href="#" class="tariffs__link">
-									<img src="/images/tariffs/Один.png" alt="" class="tariffs__img">	
-									<img src="/images/tariffs/overlay.svg" alt="" class="tariffs__filter">
-									<div class="tariffs__link-text">
-										<span class="tariffs__link-label">
-											«Один»
-										</span>
-									</div>
-								</a>
-							</div>
-							<div class="tariffs__description">
-								<div class="tariffs__value">800 руб/мес </br> или 100 руб/сутки</div>
-								<p class="tariffs__text">
-									Оплачивается рабочее место на 1 человека.
-									Есть возможность оплыты с привязкой к определенному физическому месту.
-									При оплате за год скидка 30%.
-								</p>
-							</div>
-						</li>
-						<li class="tariffs__item">
-							<div class="tariffs__title">
-									<a href="#" class="tariffs__link">
-										<img src="/images/tariffs/Трое.png" alt="" class="tariffs__img">	
-										<img src="/images/tariffs/overlay.svg" alt="" class="tariffs__filter">
-										<div class="tariffs__link-text">
-											<span class="tariffs__link-label">
-												«Трое»
-											</span>
-										</div>
-									</a>
-							</div>
-							<div class="tariffs__description">
-								<div class="tariffs__value">
-									1500 руб/месяц</br> или 200руб/сутки
-								</div>
-								<p class="tariffs__text">
-									Оплачивается стол на 3 рабочих места. 
-									При этом можно ими пользоваться как одновременно, так и поочередно.
-									Можно пользоваться офисной техникой и выделенным шкафом для документов.
-								</p>
-							</div>
-						</li>
-						<li class="tariffs__item tariffs__item--last">
-							<div class="tariffs__title">
-								<a href="#" class="tariffs__link">
-										<img src="/images/tariffs/10-10.png" alt="" class="tariffs__img">	
-										<img src="/images/tariffs/overlay.svg" alt="" class="tariffs__filter">
-										<div class="tariffs__link-text tariffs__link-text--type_tenten">
-											<span class="tariffs__link-label">
-												«10-10»
-											</span>
-										</div>
-								</a>
-							</div>
-							<div class="tariffs__description">
-								<div class="tariffs__value">
-									10000 руб/мес
-								</div>
-								<p class="tariffs__text">
-									Оплачивается 10 рабочих мест на любые 10 дней месяца.
-									Отлично подходит для периодической работы команды сотрудников без 
-									строгой привязки к рабочему месту. При оплате на год вперед скидка 25%.
-								</p>
-							</div>
-						</li>
-						<li class="tariffs__item">
-							<div class="tariffs__title">
-								<a href="#" class="tariffs__link">
-									<img src="/images/tariffs/Безлимит на одного.png" alt="" class="tariffs__img">
-									<img src="/images/tariffs/overlay.svg" alt="" class="tariffs__filter">
-									<div class="tariffs__link-text tariffs__link-text--type_endlessforone">
-										<span class="tariffs__link-label--pink">
-											VIP
-										</span></br>
-										<span class="tariffs__link-label">
-											«Безлимит на одного»
-										</span>
-									</div>
-								</a>
-							</div>
-							<div class="tariffs__description">
-								<div class="tariffs__value">
-									2500 руб/мес
-								</div>
-								<p class="tariffs__text">
-									В стоимость включена не только оплата рабочего места,
-									но и пользование копировальной техникой, бесплатный кофе или чай
-									в течение дня, возможность использования зала для переговоров
-									при предварительном бранировании 1 раз в месяц.
-								</p>
-							</div>
-						</li>
-						<li class="tariffs__item">
-								<div class="tariffs__title">
+				<main class="maincontent">
+					<div class="prices-section">
+						<ul class="breadcrumbs">
+							<li class="breadcrumbs__item">
+								<a href="/index.html" class="breadcrumbs__link breadcrumbs__link--active">Главная</a>
+							</li>
+							<li class="breadcrumbs__item breadcrumbs__item--hover">
+								<span href="" class="breadcrumbs__link">Тарифы</span>
+							</li>
+						</ul>
+						<h1 class="title">
+							Тарифы
+						</h1>
+						<div class="tariffs prices__tariffs">
+							<ul class="tariffs__list clearfix">
+								<li class="tariffs__item">
+									<div class="tariffs__title">
 										<a href="#" class="tariffs__link">
-											<img src="/images/tariffs/Все включено.png" alt="" class="tariffs__img">
+											<img src="/images/tariffs/Один.png" alt="" class="tariffs__img">	
 											<img src="/images/tariffs/overlay.svg" alt="" class="tariffs__filter">
-											<div class="tariffs__link-text tariffs__link-text--type_allinclusive">
-												<span class="tariffs__link-label--pink">
-													VIP
-												</span></br>
+											<div class="tariffs__link-text">
 												<span class="tariffs__link-label">
-													«Все включено»
+													«Один»
 												</span>
 											</div>
 										</a>
 									</div>
-							<div class="tariffs__description">
-								<div class="tariffs__value">
-									Цена рассчитывается индивидуально
-								</div>
-								<p class="tariffs__text">
-									Оплачивается необходимое число рабочих мест 
-									с привязкой к фактическому местонахождению.
-									В стоимость включены рабочие столы, мебель для хранения документов,
-									отдельный принтер и копировальный автомат.
-								</p>
-							</div>
-						</li>
-						<li class="tariffs__item tariffs__item--last">
-							<div class="tariffs__title">
-								<a href="#" class="tariffs__link">
-									<img src="/images/tariffs/Переговоры.png" alt="" class="tariffs__img">
-									<img src="/images/tariffs/overlay.svg" alt="" class="tariffs__filter">
-									<div class="tariffs__link-text tariffs__link-text--type_talking">
-										<span class="tariffs__link-label">
-											«Переговоры»
-										</span>
+									<div class="tariffs__description">
+										<div class="tariffs__value">800 руб/мес </br> или 100 руб/сутки</div>
+										<p class="tariffs__text">
+											Оплачивается рабочее место на 1 человека.
+											Есть возможность оплыты с привязкой к определенному физическому месту.
+											При оплате за год скидка 30%.
+										</p>
 									</div>
-								</a>
-							</div>
-							<div class="tariffs__description">
-								<div class="tariffs__value">
-									2500 руб/час
-								</div>
-								<p class="tariffs__text">
-									Аренда среднего зала. Есть возможность раннего бронирования
-									конференц-залов со скидкой до 30% при полной предоплате.
-								</p>
-							</div>
-						</li>
-					</ul>
-				</div>
+								</li>
+								<li class="tariffs__item">
+									<div class="tariffs__title">
+											<a href="#" class="tariffs__link">
+												<img src="/images/tariffs/Трое.png" alt="" class="tariffs__img">	
+												<img src="/images/tariffs/overlay.svg" alt="" class="tariffs__filter">
+												<div class="tariffs__link-text">
+													<span class="tariffs__link-label">
+														«Трое»
+													</span>
+												</div>
+											</a>
+									</div>
+									<div class="tariffs__description">
+										<div class="tariffs__value">
+											1500 руб/месяц</br> или 200руб/сутки
+										</div>
+										<p class="tariffs__text">
+											Оплачивается стол на 3 рабочих места. 
+											При этом можно ими пользоваться как одновременно, так и поочередно.
+											Можно пользоваться офисной техникой и выделенным шкафом для документов.
+										</p>
+									</div>
+								</li>
+								<li class="tariffs__item tariffs__item--last">
+									<div class="tariffs__title">
+										<a href="#" class="tariffs__link">
+												<img src="/images/tariffs/10-10.png" alt="" class="tariffs__img">	
+												<img src="/images/tariffs/overlay.svg" alt="" class="tariffs__filter">
+												<div class="tariffs__link-text tariffs__link-text--type_tenten">
+													<span class="tariffs__link-label">
+														«10-10»
+													</span>
+												</div>
+										</a>
+									</div>
+									<div class="tariffs__description">
+										<div class="tariffs__value">
+											10000 руб/мес
+										</div>
+										<p class="tariffs__text">
+											Оплачивается 10 рабочих мест на любые 10 дней месяца.
+											Отлично подходит для периодической работы команды сотрудников без 
+											строгой привязки к рабочему месту. При оплате на год вперед скидка 25%.
+										</p>
+									</div>
+								</li>
+								<li class="tariffs__item">
+									<div class="tariffs__title">
+										<a href="#" class="tariffs__link">
+											<img src="/images/tariffs/Безлимит на одного.png" alt="" class="tariffs__img">
+											<img src="/images/tariffs/overlay.svg" alt="" class="tariffs__filter">
+											<div class="tariffs__link-text tariffs__link-text--type_endlessforone">
+												<span class="tariffs__link-label--pink">
+													VIP
+												</span></br>
+												<span class="tariffs__link-label">
+													«Безлимит на одного»
+												</span>
+											</div>
+										</a>
+									</div>
+									<div class="tariffs__description">
+										<div class="tariffs__value">
+											2500 руб/мес
+										</div>
+										<p class="tariffs__text">
+											В стоимость включена не только оплата рабочего места,
+											но и пользование копировальной техникой, бесплатный кофе или чай
+											в течение дня, возможность использования зала для переговоров
+											при предварительном бранировании 1 раз в месяц.
+										</p>
+									</div>
+								</li>
+								<li class="tariffs__item">
+										<div class="tariffs__title">
+												<a href="#" class="tariffs__link">
+													<img src="/images/tariffs/Все включено.png" alt="" class="tariffs__img">
+													<img src="/images/tariffs/overlay.svg" alt="" class="tariffs__filter">
+													<div class="tariffs__link-text tariffs__link-text--type_allinclusive">
+														<span class="tariffs__link-label--pink">
+															VIP
+														</span></br>
+														<span class="tariffs__link-label">
+															«Все
+															</br>
+															включено»
+														</span>
+													</div>
+												</a>
+											</div>
+									<div class="tariffs__description">
+										<div class="tariffs__value">
+											Цена рассчитывается индивидуально
+										</div>
+										<p class="tariffs__text">
+											Оплачивается необходимое число рабочих мест 
+											с привязкой к фактическому местонахождению.
+											В стоимость включены рабочие столы, мебель для хранения документов,
+											отдельный принтер и копировальный автомат.
+										</p>
+									</div>
+								</li>
+								<li class="tariffs__item tariffs__item--last">
+									<div class="tariffs__title">
+										<a href="#" class="tariffs__link">
+											<img src="/images/tariffs/Переговоры.png" alt="" class="tariffs__img">
+											<img src="/images/tariffs/overlay.svg" alt="" class="tariffs__filter">
+											<div class="tariffs__link-text tariffs__link-text--type_talking">
+												<span class="tariffs__link-label">
+													«Переговоры»
+												</span>
+											</div>
+										</a>
+									</div>
+									<div class="tariffs__description">
+										<div class="tariffs__value">
+											2500 руб/час
+										</div>
+										<p class="tariffs__text">
+											Аренда среднего зала. Есть возможность раннего бронирования
+											конференц-залов со скидкой до 30% при полной предоплате.
+										</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</main>
 				<aside class="sidebar">
 					<nav class="nav">
 						<ul class="nav__list">
 							<li class="nav__item">
-								<a href="/vorcadium.html" class="nav__link nav__link--page_main nav__link--hover">
+								<a href="/index.html" class="nav__link nav__link--page_main nav__link--hover">
 									Главная
 								</a>
 							</li>
@@ -208,7 +217,7 @@
 								</a>
 							</li>
 							<li class="nav__item">
-								<a href="/comments.html" class="nav__link nav__link--page_feed nav__link--hover">
+								<a href="/feed.html" class="nav__link nav__link--page_feed nav__link--hover">
 									Отзывы
 								</a>
 							</li>
@@ -217,7 +226,6 @@
 				</aside>
 			</div>
 		</div>
-		<div class="empty"></div>
 	</div>
 	<footer class="footer">
 		<div class="container clearfix">
@@ -232,40 +240,37 @@
 			</div>
 			<div class="footer__col">
 				<div class="logo footer__logo">
-					<a href="/vorcadium.html" class="logo__link">
+					<a href="/index.html" class="logo__link">
 							<img src="/images/logo-fig.png" alt="Лого коворкинга" class="logo__img">
 						</a>
 				</div>
 			</div>
 			<div class="footer__col">
 				<div class="socials footer__socials">
-					<div class="socials__title">Наши социальные сети</div>
+					<div class="socials__title">
+						<span class="socials__title-text">Наши социальные сети</span>
+					</div>
 					<div class="socials__items">
 						<ul class="socials__list">
-							<li class="socials__item socials__item--vk">
-								<a href="#" class="socials__link">
-										<img src="/images/socials_icons/vk.png" alt="Вконтакте" class="socials__icon">
-									</a>
+							<li class="socials__item">
+								<a href="#" class="socials__link socials__link--type-vk">
+								</a>
 							</li>
-							<li class="socials__item socials__item--fb">
-								<a href="#" class="socials__link">
-										<img src="/images/socials_icons/fb.png" alt="Фейсбук" class="socials__icon">
-									</a>
+							<li class="socials__item">
+								<a href="#" class="socials__link socials__link--type-fb">
+								</a>
 							</li>
-							<li class="socials__item socials__item--google">
-								<a href="#" class="socials__link">
-										<img src="/images/socials_icons/google.png" alt="Гугл" class="socials__icon">
-									</a>
+							<li class="socials__item">
+								<a href="#" class="socials__link socials__link--type-google">
+								</a>
 							</li>
-							<li class="socials__item socials__item--twitter">
-								<a href="#" class="socials__link">
-										<img src="/images/socials_icons/twitter.png" alt="Твиттер" class="socials__icon">
-									</a>
+							<li class="socials__item">
+								<a href="#" class="socials__link socials__link--type-twitter">
+								</a>
 							</li>
-							<li class="socials__item socials__item--email">
-								<a href="#" class="socials__link">
-										<img src="/images/socials_icons/mail.png" alt="Электронная почта" class="socials__icon">
-									</a>
+							<li class="socials__item">
+								<a href="#" class="socials__link socials__link--type-email">
+								</a>
 							</li>
 						</ul>
 					</div>
