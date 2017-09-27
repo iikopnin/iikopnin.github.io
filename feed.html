@@ -15,19 +15,19 @@
 		<header class="header">
 			<div class="container">
 				<div class="logo header__logo">
-					<a href="/index.html" class="logo-link">
+					<a href="/main.html" class="logo-link">
 						<img src="/images/logo-fig.png" alt="Лого коворкинга" class="logo__img">
 					</a>
 				</div>
 				<address class="contacts header__contacts">
 					<div class="contacts__phone">
-						<button href="tel:+78000039210" class="contacts__phone-number">
+						<a href="tel:+78000039210" class="contacts__phone-number">
 							8 (800) 00-392-10
-						</button>
+						</a>
 					</div>
 					<div class="contacts__time">
 						<div class="dropdown">
-							<button class="dropdown__title">График работы</button>
+							<button class="dropdown__btn">График работы</button>
 							<div class="dropdown__content">
 								<span class="dropdown__worktime">пн-вс:09:00-20:00</span>
 								<span class="dropdown__timeout">обед:14:00-14:30</span>
@@ -41,14 +41,16 @@
 			<div class="container clearfix">
 				<main class="maincontent">
 					<div class="feed-section">
-						<ul class="breadcrumbs">
-							<li class="breadcrumbs__item">
-								<a href="/index.html" class="breadcrumbs__link breadcrumbs__link--active">Главная</a>
-							</li>
-							<li class="breadcrumbs__item">
-								<span class="breadcrumbs__link">Отзывы</span>
-							</li>
-						</ul>
+						<nav class="breadcrumbs">
+							<ul class="breadcrumbs__list">
+								<li class="breadcrumbs__item">
+									<a href="/main.html" class="breadcrumbs__link breadcrumbs__link--active">Главная</a>
+								</li>
+								<li class="breadcrumbs__item">
+									<span class="breadcrumbs__link">Отзывы</span>
+								</li>
+							</ul>
+						</nav>
 						<h1 class="title">
 							Отзывы
 						</h1>
@@ -201,21 +203,27 @@
 									</div>
 									<div class="form__buttons clearfix">
 										<div class="form__radio">
-											<div class="form__elem-title">Отображать фото в отзыве?</div>
+											<div class="form__elem-title form__elem-title--radio">Отображать фото в отзыве?</div>
 											<div class="form__radio-container">
 												<div class="form__radio-elem">
-													<label for="radio" class="form__elem-title">Да</label>
-													<input type="radio" name="radio" value="yes" class="form__radio-checkbox" checked>
+													<label class="form__radio-lable">
+														<input type="radio" name="photo" class="form__radio-checkbox" checked>
+														<span class="form__radio-checkbox--styled"></span>
+														<span class="form__radio-title">Да</span>
+													</label>
 												</div>
 												<div class="form__radio-elem">
-													<label for="radio" class="form__elem-title">Нет</label>
-													<input type="radio" name="radio" value="no" class="form__radio-checkbox">
+													<label class="form__radio-lable">
+														<input type="radio" name="photo" class="form__radio-checkbox">
+														<span class="form__radio-checkbox--styled"></span>
+														<span class="form__radio-title">Нет</span>
+													</label>
 												</div>
 											</div>
 										</div>
 										<div class="form__submit">
 											<button type="submit" class="form__button">
-												<div class="form__button__text">Отправить</div>
+												<span class="form__button-text">Отправить</span>
 											</button>
 										</div>
 									</div>
@@ -228,7 +236,7 @@
 					<nav class="nav">
 						<ul class="nav__list">
 							<li class="nav__item">
-								<a href="/index.html" class="nav__link nav__link--page_main nav__link--hover">
+								<a href="/main.html" class="nav__link nav__link--page_main nav__link--hover">
 									Главная
 								</a>
 							</li>
@@ -261,7 +269,7 @@
 				</div>
 				<div class="footer__col">
 					<div class="logo footer__logo">
-						<a href="/index.html" class="logo__link">
+						<a href="/main.html" class="logo__link">
 							<img src="/images/logo-fig.png" alt="Лого коворкинга" class="logo__img">
 						</a>
 					</div>

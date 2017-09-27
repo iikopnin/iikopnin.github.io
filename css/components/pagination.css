@@ -24,6 +24,7 @@
   border-radius: 2px;
   font-weight: bold;
   text-align: center;
+  transition: .3s;
 }
 
 .pagination__item--arrow {

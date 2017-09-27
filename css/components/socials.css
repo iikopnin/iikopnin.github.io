@@ -25,6 +25,7 @@
     background-color: #d5d5d9;
     background-repeat: no-repeat;
     background-position: center center;
+    transition: .3s;
 }
 
 .socials__item:hover .socials__link {

@@ -51,7 +51,7 @@
 }
 
 .form__input:focus {
-  border: 1 solid #ec1e79;
+  outline: 1px solid #ea227a;
 }
 
 .form__textarea {
@@ -65,15 +65,19 @@
 }
 
 .form__textarea:focus {
-  border: 1 solid #ec1e79;
+  outline: 1px solid #ea227a;
 }
 
 
 
-/* стили для кнопок и радио */
+/* стили для радио */
+
+.form__elem-title--radio {
+  margin-bottom: 0;
+}
 
 .form__buttons {
-  margin-top: 20px;
+  margin-top: 18px;
 }
 
 .form__radio {
@@ -83,10 +87,44 @@
 .form__radio-elem {
   display: inline-block;
   margin-right: 10px;
+  height: 20px;
 }
+
+.form__radio-lable {
+  position: relative;
+}
+
+.form__radio-checkbox {
+  position: absolute;
+  left: -3000px;
+}
+
+.form__radio-checkbox--styled {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  background-color: #f7f7f8; 
+  border: 1px solid #cccccc;
+  border-radius: 50%;
+}
+
+.form__radio-checkbox:checked + .form__radio-checkbox--styled {
+  border-color: #ea227a;
+  background-image: url("/images/feed/ellipse-3.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.form__radio-title {
+  vertical-align: middle;
+
+}
+/* стили для кнопки */
 
 .form__submit {
   float: right;
+  padding-top: 2px;
 }
 
 .form__button {
