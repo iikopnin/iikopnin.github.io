@@ -9,18 +9,17 @@
 }
 
 .contacts__phone-number {
-  font-family: inherit;
+  font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
   color: #ffffff;
   font-size: 18px;
   font-weight: bold;
 }
 
-.contacts__time {
-  display: inline-block;
-  margin-right: 3px;
-}
-
 .header__contacts {
   float: right;
   margin-top: 18px;
+}
+
+.contacts__dropdown {
+  display: inline-block;
 }

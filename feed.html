@@ -25,12 +25,13 @@
 							8 (800) 00-392-10
 						</a>
 					</div>
-					<div class="contacts__time">
+					<div class="contacts__dropdown">
 						<div class="dropdown">
 							<button class="dropdown__btn">График работы</button>
 							<div class="dropdown__content">
-								<span class="dropdown__worktime">пн-вс:09:00-20:00</span>
-								<span class="dropdown__timeout">обед:14:00-14:30</span>
+								<div class="dropdown__triangle"></div>
+								<span class="dropdown__text dropdown__text--pink">пн-вс:09:00-20:00</span>
+								<span class="dropdown__text">обед:14:00-14:30</span>
 							</div>
 						</div>
 					</div>
@@ -151,10 +152,10 @@
 						</div>
 						<nav class="pagination feed__pagination">
 							<span class="pagination__pages">Страница 1 из 7</span>
+							<button class="pagination__arrow pagination__arrow--inactive">
+								<a class="pagination__link"><</a>
+							</button>
 							<ul class="pagination__list">
-								<li class="pagination__item pagination__item--arrow pagination__item--inactive">
-									<a class="pagination__link"><</a>
-								</li>
 								<li class="pagination__item pagination__item--active">
 									<a class="pagination__link">1</a>
 								</li>
@@ -176,10 +177,10 @@
 								<li class="pagination__item">
 									<a class="pagination__link">7</a>
 								</li>
-								<li class="pagination__item pagination__item--arrow">
-									<a class="pagination__link">></a>
-								</li>
 							</ul>
+							<button class="pagination__arrow">
+								<a class="pagination__link">></a>
+							</button>
 						</nav>
 						<div class="form__container feed__form">
 							<form action="#" method="post" class="form">

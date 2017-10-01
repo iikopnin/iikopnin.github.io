@@ -27,9 +27,18 @@
   transition: .3s;
 }
 
-.pagination__item--arrow {
+.pagination__arrow {
+  font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
   font-size: 15px;
   font-weight: normal;
+}
+
+.pagination__arrow:hover {
+  color: #ea227a;
+}
+
+.pagination__arrow--inactive, .pagination__arrow--inactive:hover {
+  color: #bebdbd;
 }
 
 .pagination__item--active {
@@ -42,9 +51,6 @@
   color: #ec1e79;
 }
 
-.pagination__item--inactive, .pagination__item--inactive:hover {
-  color: #bebdbd;t
-}
 
 .pagination__link {
   line-height: 25px;

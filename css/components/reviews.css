@@ -24,6 +24,12 @@
   filter: grayscale(100%);
 }
 
+.reviews__avatar-img {
+  max-height: 100%;
+  max-width: 100%;
+  clip-path: circle(50%);
+}
+
 .reviews__text {
   float: left;
   text-align: left;
